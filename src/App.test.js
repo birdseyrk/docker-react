@@ -7,9 +7,3 @@ test('renders learn react link', () => {
   const linkElement = getByText(/Randy Birdsey 4/);
   expect(linkElement).toBeInTheDocument();
 });
-
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/Randy Birdsey 4/);
-  expect(linkElement).toBeInTheDocument();
-});
